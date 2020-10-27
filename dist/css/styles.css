@@ -6095,7 +6095,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #f2f2f2 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6105,7 +6105,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #ccff33 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10079,7 +10079,7 @@ h3 {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #000000;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -10149,7 +10149,6 @@ h3 {
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -10250,12 +10249,16 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ccff33;
+  color: #000000;
 }
 
 .copyright {
   background-color: #1a252f;
 }
+
+.iframe {
+  margin-top: 100px;
+ }
