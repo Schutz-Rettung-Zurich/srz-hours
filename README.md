@@ -1,16 +1,24 @@
 # Schutz und Rettung - Öffnungszeiten Editor
 
-![Screenshot](screenshot.png)
+![Screenshot](srz-hours.gif)
 
-Öffnungszeiten Editor für die Mapper von Schutz & Rettung und andere Interessierte
+Öffnungszeiten Editor für die Mapper von Schutz & Rettung und andere Interessierte.
 
 ## Anwendung
 
 ### Kalenderansicht
 
-Ziehe auf der Kalender-Ansicht die Öffnungszeiten die du gerne in opening_hours
+Ziehe auf der Kalender-Ansicht die Öffnungszeiten die du gerne in opening_hours eintragen möchtest. Der Editor funktioniert hier wie ein normaler Kalender. Wenn du also Mo-Fr 08:00-17:00, Sa 08:00-13:30 eintragen willst, ziehe die Felder dieser Zeiten einfach auf dem Kalender (siehe Bild oben). Die Werte werden dann in OSM konformem Format in das Feld `opening_hours` geschrieben. Kopiere diesen Eintrag.
+
+Solltest du andere Ansichten als die Wochenansicht benötigen, kannst du die Ansicht oben ändern. Diese Funktion hilft dir vor allem bei Einträgen die vorallem saisonal, resp. während wenigen Monaten verfügbar sind (z.B Badis).
 
 ### Werte in opening_hours
+
+Die Werte die du im Formular erhältst und kopiert hast, musst du dann im ID Editor oder in JOSM in das Feld opening_hours schreiben:
+
+`opening_hours = Wert aus dem Formular`
+
+Nun kannst du deine Änderung im richtigen Format hochladen. Cool oder?
 
 #### Credit
 
@@ -19,20 +27,6 @@ Die Software basiert auf dem von [Adrien Pavie](https://github.com/PanierAvide)'
 
 #### License
 
-
 Copyright 2015 Adrien PAVIE, 2020 Schutz & Rettung Zürich
 
 See [LICENSE](LICENSE) for complete AGPL3 license.
-
-YoHours is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-YoHours is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with YoHours. If not, see <http://www.gnu.org/licenses/>.
