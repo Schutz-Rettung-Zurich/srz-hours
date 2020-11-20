@@ -6,6 +6,10 @@
 
 ## Anwendung
 
+#### Link
+
+[SRZ Hours im Internet](https://srzhours.srz.borsnet.ch)s
+
 ### Kalenderansicht
 
 Ziehe auf der Kalender-Ansicht die Öffnungszeiten die du gerne in opening_hours eintragen möchtest. Der Editor funktioniert hier wie ein normaler Kalender. Wenn du also Mo-Fr 08:00-17:00, Sa 08:00-13:30 eintragen willst, ziehe die Felder dieser Zeiten einfach auf dem Kalender (siehe Bild oben). Die Werte werden dann in OSM konformem Format in das Feld `opening_hours` geschrieben. Kopiere diesen Eintrag.
