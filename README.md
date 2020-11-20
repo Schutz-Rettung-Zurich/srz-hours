@@ -8,7 +8,7 @@
 
 #### Link
 
-[SRZ Hours im Internet](https://srzhours.srz.borsnet.ch)s
+[SRZ Hours im Internet](https://srzhours.srz.borsnet.ch)
 
 ### Kalenderansicht
 
