@@ -3997,7 +3997,7 @@ input[type=button].btn-block {
 }
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+  padding-top: 3.2125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -6105,7 +6105,8 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #ccff33 !important;
+  #background-color: #ccff33 !important;
+  background: linear-gradient(to right, #ffffff 20%, #b9e345 20%);
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10079,7 +10080,7 @@ h3 {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #000000;
+  color: darkblue;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -10251,8 +10252,8 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #ccff33;
-  color: #000000;
+  background-color: #b9e345;
+  color: darkblue;
 }
 
 .copyright {
